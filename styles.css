@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin-left: 15vh;
+    font-family: "Roboto";
+    background-color: rgb(155, 181, 184);
+}
+
+button {
+    background-color: #73aaaf;
+    padding: 1vh;
+    font-size: 1.3vh;
+    border: 0.3vh solid;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(136, 220, 228);
+}
