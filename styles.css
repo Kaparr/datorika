@@ -2,6 +2,7 @@
 
 body {
     margin-left: 15vh;
+    margin-right: 30vh;
     font-family: "Roboto";
     background-color: rgb(155, 181, 184);
 }
@@ -16,4 +17,13 @@ button {
 
 button:hover {
     background-color: rgb(136, 220, 228);
+}
+
+.box {
+    display: flex;
+    background-color: #618e92;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+    padding: 1.5vh;
 }
