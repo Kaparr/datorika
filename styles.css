@@ -4,7 +4,7 @@ body {
     margin-left: 15vh;
     margin-right: 30vh;
     font-family: "Roboto";
-    background-color: rgb(155, 181, 184);
+    background-color: #c1e2e6;
 }
 
 button {
@@ -13,17 +13,66 @@ button {
     font-size: 1.3vh;
     border: 0.3vh solid;
     cursor: pointer;
+    height: 5vh;
+    min-width: 10vh;
+    max-width: 15vh;
 }
 
 button:hover {
     background-color: rgb(136, 220, 228);
 }
 
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+
 .box {
     display: flex;
-    background-color: #618e92;
+    background-color: white;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: start;
     padding: 1.5vh;
+    width: 80vh;
+}
+
+.header {
+    display: flex;
+    height: 10vh;
+    font-weight: bold;
+    align-items: center;
+    gap: 1.5vh;
+    width: 80vh;
+}
+
+.header .title {
+    font-size: 5vh;
+}
+
+.header .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vh;
+    height: 7vh;
+    background-color: #73aaaf;
+    border-radius: 9999px;
+    user-select: none;
+}
+
+.header .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vh;
+    /* height: 100%; */
+}
+
+.header .icon img {
+    width: 5vh;
+    height: 5vh;
 }
