@@ -1,24 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mājaslapa - Matemātika</title>
     <link href="../styles.css" rel="stylesheet" type="text/css" />
-</head>
+    <link href="../page.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
+    <div
+      class="gradient"
+      style="
+        background: radial-gradient(
+          73.86% 98.46% at 50% 0%,
+          #4382b0 0%,
+          rgba(19, 21, 25, 0) 100%
+        );
+      "
+    ></div>
     <div class="topbar">
-        <!-- Logo -->
-        <img src="../media/vectors/Logo.svg"/>
-        <span class="pages">
-            <a href="../index.html">Sākums</a>
-            <a href="lat-val.html">Latviešu valoda</a>
-            <a href="ang-val.html">Angļu valoda</a>
-        </span>
+      <img src="../media/vectors/Logo.svg" />
+      <span class="pages">
+        <a href="../index.html">Sākums</a>
+        <a href="lat-val.html">Latviešu valoda</a>
+        <a href="ang-val.html">Angļu valoda</a>
+      </span>
     </div>
-    <script src="../script.js"></script>
-</body>
+    <div class="content">
+      <span class="header">
+        <h1>Matemātika</h1>
+        <p>
+          Šajā lapā atradīsi trīs svarīgas tēmas, kas bieži parādās 9. klases
+          matemātikas eksāmenā.
+        </p>
+      </span>
+      <span class="category">
+        <p>Pitagora teorēma</p>
+        <div class="card-wrapper">
+          <span class="card" style="max-width: 300px">
+            <div class="title">
+              <img
+                src="../media/vectors/square-root-variable.svg"
+                alt="square root"
+              />
+              <p>Formula</p>
+            </div>
+            <p>a²+b²=c²</p>
+            <ul>
+              <li>a un b — taisnleņķa trijstūra katetes</li>
+              <li>c — hipotenūza (garākā mala, pretī taisnajam leņķim)</li>
+            </ul>
+          </span>
+          <span class="card" style="max-width: 370px">
+            <div class="title">
+              <img src="../media/vectors/lightbulb.svg" alt="lightbulb" />
+              <p>Piemērs</p>
+            </div>
+            <p>Ja a = 3 un b = 4, tad:</p>
+            <p>c2 = 3²+4² = 9 + 16 = 25 ⇒ c = √25​ = 5</p>
+          </span>
+          <span class="card" style="max-width: 370px">
+            <div class="title">
+              <img
+                src="../media/vectors/magnifying-glass.svg"
+                alt="magnifying-glass"
+              />
+              <p>Vizualizācija</p>
+            </div>
+            <img src="../media/vectors/pitagors.svg" alt="Pitagora teorēma" />
+          </span>
+        </div>
+      </span>
+      <span class="category">
+        <p>Trigonometriskās attiecības (sin, cos, tan)</p>
+        <div class="card-wrapper">
+          <span class="card" style="max-width: 370px">
+            <div class="title">
+              <img
+                src="../media/vectors/square-root-variable.svg"
+                alt="square root"
+              />
+              <p>Formulas</p>
+            </div>
+            <p>sin(θ) = hipotenūza / pretējā katete​</p>
+            <p>cos(θ) = blakus katete / hipotenūza​​</p>
+            <p>tan(θ) = pretējā katete / blakus katete​​</p>
+          </span>
+          <span class="card" style="max-width: 500px">
+            <div class="title">
+              <img src="../media/vectors/lightbulb.svg" alt="lightbulb" />
+              <p>Piemērs</p>
+            </div>
+            <p>Trijstūrī ar leņķi θ=30º, pretējā katete = 5, hipotenūza = 10</p>
+            <p>sin(30º) = 10 / 5​ = 0.5</p>
+          </span>
+          <span class="card" style="max-width: 800px">
+            <div class="title">
+              <img
+                src="../media/vectors/magnifying-glass.svg"
+                alt="magnifying-glass"
+              />
+              <p>Vizualizācija</p>
+            </div>
+            <img src="../media/trig.png" alt="Trigonometriskās attiecības" />
+          </span>
+        </div>
+      </span>
+      <span class="category">
+        <p>Lineāru vienādojumu atrisināšana</p>
+        <div class="card-wrapper">
+          <span class="card" style="max-width: 370px">
+            <div class="title">
+              <img
+                src="../media/vectors/square-root-variable.svg"
+                alt="square root"
+              />
+              <p>Vispārīgā formula</p>
+            </div>
+            <p>ax + b = c​</p>
+          </span>
+          <span class="card" style="max-width: 500px">
+            <div class="title">
+              <img src="../media/vectors/lightbulb.svg" alt="lightbulb" />
+              <p>Piemērs</p>
+            </div>
+            <p>2x + 3 = 11 ⇒ 2x = 11 -3 = 8 ⇒ x = 8 / 2 = 4</p>
+          </span>
+        </div>
+      </span>
+    </div>
 
+    <footer>
+      <img src="../media/vectors/Logo.svg" height="15" alt="SKOLA" />
+      <p>© ALL RIGHTS RESERVED</p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
 </html>
