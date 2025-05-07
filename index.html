@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mājaslapa</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
-</head>
+  </head>
 
-<body>
-    <h1>Mācību materiāli</h1>
-    <p>Mācību gada nobeigumā 9. klases skolēni kārto CE.</p>
-    <ol>
-        <li>Latviešu valodā</li>
-        <li>Angļu valodā</li>
-        <li>Matemātikā</li>
-    </ol>
+  <body>
+    <div class="topbar">
+      <img src="media/vectors/Logo.svg" alt="SKOLA" />
+      <span class="pages">
+        <a href="pages/matematika.html">Matemātika</a>
+        <a href="pages/lat-val.html">Latviešu valoda</a>
+        <a href="pages/ang-val.html">Angļu valoda</a>
+      </span>
+    </div>
+    <div class="main">
+      <span class="header">
+        <div class="text">
+          <img src="media/vectors/Logo.svg" alt="SKOLA" />
+          <p class="h1">Mācību materiāli</p>
+          <p>
+            Mācību gada nobeigumā 9. klases skolēni kārto centralizētos
+            eksāmenus.
+          </p>
+        </div>
+        <img class="bigimage" src="media/exams.jpg" alt="Exams" />
+      </span>
 
-    <image style="height: 25vh; border-radius: 1vh; " src="media/eksameni.jpg" />
-
-    <br /><br />
-
-    <button onclick="page(this)" id="lat-val">Latviešu valoda</button>
-    <button onclick="page(this)" id="ang-val">Angļu valoda</button>
-    <button onclick="page(this)" id="matematika">Matemātika</button>
-
+      <span class="objects">
+        <p class="title">Mācību priekšmeti</p>
+        <div class="buttons">
+          <span
+            style="
+              background: linear-gradient(279.33deg, #1e3e4e 0%, #4382b0 100%);
+            "
+            onclick="pagebtn(this)"
+            id="matematika"
+            class="button"
+          >
+            <img src="media/vectors/button-matematika.svg" alt="MATEMĀTIKA" />
+          </span>
+          <span
+            style="
+              background: linear-gradient(260.67deg, #4b3437 0%, #842530 100%);
+            "
+            onclick="pagebtn(this)"
+            id="lat-val"
+            class="button"
+          >
+            <img src="media/vectors/button-lat-val.svg" alt="LATVIEŠU VAL" />
+          </span>
+          <span
+            style="
+              background: linear-gradient(99.33deg, #2d3a9f 0%, #2d3a9f 100%);
+            "
+            onclick="pagebtn(this)"
+            id="ang-val"
+            class="button"
+          >
+            <img src="media/vectors/button-ang-val.svg" alt="ANGĻU VAL" />
+          </span>
+        </div>
+      </span>
+    </div>
+    <footer>
+      <img src="media/vectors/Logo.svg" height="15" alt="SKOLA" />
+      <p>© ALL RIGHTS RESERVED</p>
+    </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
