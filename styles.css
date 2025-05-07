@@ -69,7 +69,7 @@ a:active {
     flex-direction: column;
     align-items: flex-start;
     padding: 125px 200px;
-    gap: 150px;
+    gap: 50px;
 
     width: auto;
 }
